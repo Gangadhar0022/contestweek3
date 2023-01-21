@@ -1,0 +1,72 @@
+/* .parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+} */
+
+h1{
+    margin-right: 100px;
+    position: relative;
+    right: -99px;
+}
+
+.container{
+    margin-left: 100px;
+    display: grid;   
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2fr 1fr;
+    width: 65vw;
+    height: 100px;
+    padding bottom: 50px;
+}
+.item1{
+    height: 300px;
+}
+.item2{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(2,261px);
+    gap: 2px;
+    align-items: center;
+    justify-content:flex-end;
+
+
+}
+
+.item21{
+    display: flex;
+    justify-self: center;
+   align-self: center;
+    width: 200px;
+    height: 200px
+}
+
+
+.item1,.item2{
+    width: 634px;
+    height: 560px;
+}
+.item3,.item4{
+    width: 634px;
+    height: 238px;
+}
+
+p{
+    color: black;
+    display: flex;
+    background-image: url(./Jr-NTR-1200by667.jpeg);
+    margin-top: 0px;
+    width: 634px;
+    height: 238px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: xx-large;
+    
+}
+
+a{
+    color: black;
+}
+
+
